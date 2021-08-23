@@ -1,0 +1,33 @@
+@import '../design/design';
+
+.player-card {
+    border: 1px #000 solid;
+    border-radius: 5px;
+    padding: 15px;
+
+    &:not(:last-of-type) {
+        margin-bottom: 25px;
+    }
+}
+
+    .player-card__name {
+        margin-bottom: 15px
+    }
+
+    .player-card__details-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+        
+        .player-card__details {
+            width: 50%;
+
+            &:nth-child(2n + 1) {
+                margin-bottom: 5px;
+            }
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }

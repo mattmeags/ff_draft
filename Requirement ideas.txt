@@ -1,0 +1,31 @@
+Requirement ideas
+Admin Panel: 
+    Choose number of teams
+        League Name - Optional
+        Add Team Names
+            Option to reorder
+    Set Roster Sizes
+        This will set the draftable players as well
+        Set position Limits as well
+    Draft Clock?
+        if set need time per round
+
+Option to Start a new draft
+
+Start Draft - idle state
+    Need to be able to edit everything
+
+Draft
+    Player order
+        Sort by position
+    See Teams and what players they have
+    Order indicator - like ESPN top slider but nicer
+    Will Need some sort of lazy load
+    Need a search
+
+Need ability to save a draft if closes out. - stop draft time
+
+Draft Summary
+    Ability to export
+
+

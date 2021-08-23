@@ -1,0 +1,25 @@
+@import '../design/design';
+
+.draft-board {
+    width: 65%;
+    padding: 0 30px;
+}
+
+    .draft-board__header {
+        margin-bottom: 30px;
+    }
+
+.team-view {
+    width: 35%;
+    padding: 0 15px 0 0;
+}
+
+    .team-view__slot {
+        margin-bottom: 10px;
+    }
+
+    .team-view__slot--empty {
+        border: 1px solid black;
+        height: 40px;
+        width: 100%;
+    }
